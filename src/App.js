@@ -1,17 +1,19 @@
 import React from 'react';
-import logo from './logo.svg';
-import { Button } from 'antd';
-import './App.css';
+import { Layout } from 'antd';
+import './App.sass';
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <Button type="primary">Button</Button>
-      </header>
-    </div>
-  );
-}
+const { Header, Content, Footer } = Layout;
+
+const App = () => (
+  <Layout className="layout">
+    <Header>
+      <div className="logo" />
+    </Header>
+    <Content className="content">
+      <div style={{ background: '#fff', padding: 24, minHeight: 280 }}>Content</div>
+    </Content>
+    <Footer className="footer">Atsushi's portfolio ©2020 Created by Atsushi</Footer>
+  </Layout>
+);
 
 export default App;
