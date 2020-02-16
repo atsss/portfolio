@@ -12,7 +12,7 @@ const Section = ({ children }) => <section className="section">{children}</secti
 
 const App = () => (
   <Layout className="layout">
-    <Header>
+    <Header className="header">
       <Title style={{ color: '#fff', lineHeight: '64px' }}>Atsushi's Portfolio</Title>
     </Header>
     <Content className="content">
