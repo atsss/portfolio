@@ -1,5 +1,6 @@
 import React from 'react';
 import Section from '../../atoms/Section';
+import Image from '../../atoms/Image';
 import { Typography } from 'antd';
 import { Row, Col } from 'antd';
 import payment from '../../../assets/images/payment.jpg';
@@ -14,11 +15,7 @@ const Works = () => (
       <li>
         <Row gutter={16}>
           <Col span={6}>
-            <img
-              alt="payment"
-              src={payment}
-              className="image"
-            />
+            <Image alt="payment" src={payment} />
           </Col>
           <Col span={18}>
             <Title level={3}>Local Works Payment</Title>
@@ -34,11 +31,7 @@ const Works = () => (
       <li className="u-mt24">
         <Row gutter={16}>
           <Col span={6}>
-            <img
-              alt="search"
-              src={search}
-              className="image"
-            />
+            <Image alt="search" src={search} />
           </Col>
           <Col span={18}>
             <Title level={3}>Local Works Search</Title>

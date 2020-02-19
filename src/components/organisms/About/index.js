@@ -1,5 +1,6 @@
 import React from 'react';
 import Section from '../../atoms/Section';
+import Image from '../../atoms/Image';
 import { Typography } from 'antd';
 import { Row, Col } from 'antd';
 import profile from '../../../assets/images/profile.jpg';
@@ -11,11 +12,7 @@ const About = () => (
     <Title level={2}>About</Title>
     <Row gutter={16}>
       <Col span={6}>
-        <img
-          alt="profile"
-          src={profile}
-          className="image"
-        />
+        <Image alt="profile" src={profile} />
       </Col>
       <Col span={18}>
         <Paragraph>My name is Atsushi Ito.</Paragraph>
