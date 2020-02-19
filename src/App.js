@@ -1,4 +1,5 @@
 import React from 'react';
+import Section from './components/atoms/Section';
 import { Layout } from 'antd';
 import { Typography } from 'antd';
 import { Row, Col } from 'antd';
@@ -9,8 +10,6 @@ import search from './assets/images/search.jpg';
 
 const { Header, Content, Footer } = Layout;
 const { Title, Paragraph, Text } = Typography;
-
-const Section = ({ children }) => <section className="section">{children}</section>;
 
 const App = () => (
   <Layout className="layout">
