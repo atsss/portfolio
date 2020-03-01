@@ -22,7 +22,7 @@ const works = [
       "construction industry. I was in charge of development and ui/ux design.",
       "I researched UX. then I did coding web/native app and UI design."
     ],
-    link: "https://docs.google.com/document/d/1a9efuswif2p6mpvbs-ng2dvktef5cizdlyxuag-1nza/edit?usp=sharing"
+    link: "https://docs.google.com/document/d/1a9eFUsWiF2P6MPvbS-NG2DVKteF5CIzDLYXUAG-1nzA/edit?usp=sharing"
   },
   {
     title: "Tips to research UX from nothing",
